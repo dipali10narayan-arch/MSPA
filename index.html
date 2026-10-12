@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1><u><i>Student Task Manager</i></u></h1>
+
+        <!-- Add Task Section -->
+        <div class="task-input">
+            <input 
+                type="text" 
+                id="taskInput" 
+                placeholder="Enter your task"
+            >
+
+            <button id="addButton">Add Task</button>
+        </div>
+
+        <!-- Task Count -->
+        <div class="count">
+            <p>Total Tasks: <span id="totalTasks">0</span></p>
+            <p>Pending Tasks: <span id="pendingTasks">0</span></p>
+            <p>Completed Tasks: <span id="completedTasks">0</span></p>
+        </div>
+
+        <!-- Task List -->
+        <h2>My Tasks</h2>
+
+        <ul id="taskList"></ul>
+
+        <!-- Fetch API Button -->
+        <!-- <button id="loadButton">Load Sample Tasks</button> -->
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

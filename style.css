@@ -1,0 +1,106 @@
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color:azure;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main container */
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+/* Input section */
+.task-input {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:darkorchid;
+}
+
+/* Count */
+.count {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* Task list */
+#taskList {
+    padding: 0;
+}
+
+/* Individual task */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Completed task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Task buttons */
+.task button {
+    margin-left: 5px;
+    padding: 6px 10px;
+}
+
+.complete-btn {
+    background-color: #2196F3;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+/* Load button */
+#loadButton {
+    margin-top: 15px;
+    width: 100%;
+}
